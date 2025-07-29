@@ -1,0 +1,40 @@
+{
+    "pacakges": [
+        [
+            {
+                "roomName": "Chambre Double Vue Jardin",
+                "board": "RO",
+                "rateKey": 1,
+                "capacity": {
+                    "adults": 2
+                }
+            },
+            {
+                "roomName": "Chambre Double Vue Mer",
+                "board": "RO",
+                "rateKey": 3,
+                "capacity": {
+                    "adults": 2
+                }
+            }
+        ],
+        [
+            {
+                "roomName": "Chambre Double Vue Jardin",
+                "board": "BR",
+                "rateKey": 2,
+                "capacity": {
+                    "adults": 2
+                }
+            },
+            {
+                "roomName": "Chambre Double Vue Mer",
+                "board": "BR",
+                "rateKey": 4,
+                "capacity": {
+                    "adults": 2
+                }
+            }
+        ]
+    ]
+}
