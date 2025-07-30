@@ -15,6 +15,15 @@
             "roomName": "Chambre Double Vue Jardin",
             "board": "BR",
             "nrf": false,
+            "rateKey": 1,
+            "capacity": {
+                "adults": 2
+            }
+        },
+        {
+            "roomName": "Chambre Double Vue Jardin 2",
+            "board": "BR",
+            "nrf": false,
             "rateKey": 2,
             "capacity": {
                 "adults": 2
@@ -24,7 +33,7 @@
             "roomName": "Chambre Double Vue Jardin",
             "board": "RO",
             "nrf": false,
-            "rateKey": 1,
+            "rateKey": 3,
             "capacity": {
                 "adults": 2
             }
@@ -33,7 +42,7 @@
             "roomName": "Chambre Double Vue Mer",
             "board": "RO",
             "nrf": true,
-            "rateKey": 3,
+            "rateKey": 4,
             "capacity": {
                 "adults": 2
             }
@@ -42,7 +51,7 @@
             "roomName": "Chambre Double Vue Mer",
             "board": "BR",
             "nrf": false,
-            "rateKey": 4,
+            "rateKey": 5,
             "capacity": {
                 "adults": 2
             }
@@ -51,7 +60,7 @@
             "roomName": "Chambre Double Vue Sta7",
             "board": "RO",
             "nrf": true,
-            "rateKey": 3,
+            "rateKey": 6,
             "capacity": {
                 "adults": 2
             }
@@ -60,7 +69,7 @@
             "roomName": "Chambre Double Vue Sta7",
             "board": "BR",
             "nrf": false,
-            "rateKey": 4,
+            "rateKey": 7,
             "capacity": {
                 "adults": 2
             }
@@ -69,7 +78,7 @@
             "roomName": "Chambre Double Vue Jardin",
             "board": "AI",
             "nrf": false,
-            "rateKey": 4,
+            "rateKey": 8,
             "capacity": {
                 "adults": 2
             }
@@ -78,7 +87,7 @@
             "roomName": "Chambre Simple",
             "board": "BR",
             "nrf": false,
-            "rateKey": 4,
+            "rateKey": 9,
             "capacity": {
                 "adults": 1
             }
@@ -87,7 +96,7 @@
             "roomName": "Chambre Simple",
             "board": "BR",
             "nrf": true,
-            "rateKey": 4,
+            "rateKey": 10,
             "capacity": {
                 "adults": 1
             }
@@ -96,7 +105,7 @@
             "roomName": "Chambre Triple",
             "board": "BR",
             "nrf": false,
-            "rateKey": 4,
+            "rateKey": 11,
             "capacity": {
                 "adults": 3
             }
@@ -105,7 +114,7 @@
             "roomName": "Chambre Triple",
             "board": "BR",
             "nrf": true,
-            "rateKey": 4,
+            "rateKey": 12,
             "capacity": {
                 "adults": 3
             }
@@ -114,7 +123,7 @@
             "roomName": "Chambre Double Vue X",
             "board": "BR",
             "nrf": false,
-            "rateKey": 2,
+            "rateKey": 13,
             "capacity": {
                 "adults": 2
             }

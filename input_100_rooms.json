@@ -1,0 +1,918 @@
+{
+  "pax": [
+    {
+      "adults": 3
+    },
+    {
+      "adults": 4
+    },
+    {
+      "adults": 1
+    },
+    {
+      "adults": 3
+    }
+  ],
+  "rooms": [
+    {
+      "roomName": "Chambre Simple",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 1,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 2,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 3,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 4,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 5,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 6,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 7,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 8,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 9,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 10,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 11,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "AI",
+      "nrf": true,
+      "rateKey": 12,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 13,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 14,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 15,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 16,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 17,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 18,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 19,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "AI",
+      "nrf": true,
+      "rateKey": 20,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 21,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 22,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 23,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 24,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 25,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 26,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 27,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 28,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 29,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 30,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 31,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 32,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 33,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 34,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 35,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 36,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 37,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 38,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 39,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 40,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 41,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 42,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 43,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 44,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 45,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 46,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 47,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 48,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 49,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 50,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 51,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 52,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 53,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 54,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 55,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 56,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 57,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 58,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 59,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 60,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 61,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 62,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 63,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 64,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 65,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 66,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 67,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 68,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 69,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 70,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 71,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "AI",
+      "nrf": true,
+      "rateKey": 72,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 73,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 74,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 75,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "AI",
+      "nrf": true,
+      "rateKey": 76,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 77,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 78,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 79,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "AI",
+      "nrf": true,
+      "rateKey": 80,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 81,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 82,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 83,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 84,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 85,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 86,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 87,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 88,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 89,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 90,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Simple",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 91,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Piscine",
+      "board": "AI",
+      "nrf": false,
+      "rateKey": 92,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Chambre Double Vue Jardin",
+      "board": "BR",
+      "nrf": true,
+      "rateKey": 93,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Suite Familiale",
+      "board": "RO",
+      "nrf": false,
+      "rateKey": 94,
+      "capacity": {
+        "adults": 4
+      }
+    },
+    {
+      "roomName": "Appartement Deluxe",
+      "board": "BB",
+      "nrf": true,
+      "rateKey": 95,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Studio Confort",
+      "board": "AI",
+      "nrf": true,
+      "rateKey": 96,
+      "capacity": {
+        "adults": 3
+      }
+    },
+    {
+      "roomName": "Penthouse Vue Mer",
+      "board": "BR",
+      "nrf": false,
+      "rateKey": 97,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Chambre Twin",
+      "board": "RO",
+      "nrf": true,
+      "rateKey": 98,
+      "capacity": {
+        "adults": 1
+      }
+    },
+    {
+      "roomName": "Chambre Supérieure",
+      "board": "BB",
+      "nrf": false,
+      "rateKey": 99,
+      "capacity": {
+        "adults": 2
+      }
+    },
+    {
+      "roomName": "Loft Design",
+      "board": "AI",
+      "nrf": true,
+      "rateKey": 100,
+      "capacity": {
+        "adults": 4
+      }
+    }
+  ]
+}

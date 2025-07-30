@@ -12,25 +12,42 @@
             "roomName": "Chambre Simple",
             "board": "BR",
             "nrf": false,
-            "rateKey": 4,
+            "rateKey": 1,
             "capacity": {
                 "adults": 1
-            }
+            },
+            "view": [
+                "Jardin",
+                "Piscine"
+            ]
         },
         {
             "roomName": "Chambre Simple",
             "board": "RO",
             "nrf": false,
-            "rateKey": 4,
+            "rateKey": 2,
             "capacity": {
                 "adults": 1
             }
         },
         {
+            "roomName": "Chambre Double Vue Piscine",
+            "board": "BR",
+            "nrf": false,
+            "rateKey": 3,
+            "capacity": {
+                "adults": 2
+            },
+            "view": [
+                "Jardin",
+                "Piscine"
+            ]
+        },
+        {
             "roomName": "Chambre Double Vue Jardin",
             "board": "BR",
             "nrf": false,
-            "rateKey": 2,
+            "rateKey": 4,
             "capacity": {
                 "adults": 2
             }

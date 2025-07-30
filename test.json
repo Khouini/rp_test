@@ -1,0 +1,31 @@
+{
+    "input": {
+        "pax": [
+            {
+                "adults": 1
+            }
+        ],
+        "rooms": [
+            {
+                "roomName": "Chambre Simple",
+                "board": "BR",
+                "nrf": false,
+                "rateKey": 1,
+                "capacity": {
+                    "adults": 1
+                }
+            }
+        ]
+    },
+    "expected": [
+        {
+            "roomName": "Chambre Simple",
+            "board": "BR",
+            "nrf": false,
+            "rateKey": 1,
+            "capacity": {
+                "adults": 1
+            }
+        }
+    ]
+}
