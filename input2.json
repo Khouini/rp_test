@@ -1,0 +1,123 @@
+{
+    "pax": [
+        {
+            "adults": 2
+        },
+        {
+            "adults": 2
+        },
+        {
+            "adults": 3
+        }
+    ],
+    "rooms": [
+        {
+            "roomName": "Chambre Double Vue Jardin",
+            "board": "BR",
+            "nrf": false,
+            "rateKey": 2,
+            "capacity": {
+                "adults": 2
+            }
+        },
+        {
+            "roomName": "Chambre Double Vue Jardin",
+            "board": "RO",
+            "nrf": false,
+            "rateKey": 1,
+            "capacity": {
+                "adults": 2
+            }
+        },
+        {
+            "roomName": "Chambre Double Vue Mer",
+            "board": "RO",
+            "nrf": true,
+            "rateKey": 3,
+            "capacity": {
+                "adults": 2
+            }
+        },
+        {
+            "roomName": "Chambre Double Vue Mer",
+            "board": "BR",
+            "nrf": false,
+            "rateKey": 4,
+            "capacity": {
+                "adults": 2
+            }
+        },
+        {
+            "roomName": "Chambre Double Vue Sta7",
+            "board": "RO",
+            "nrf": true,
+            "rateKey": 3,
+            "capacity": {
+                "adults": 2
+            }
+        },
+        {
+            "roomName": "Chambre Double Vue Sta7",
+            "board": "BR",
+            "nrf": false,
+            "rateKey": 4,
+            "capacity": {
+                "adults": 2
+            }
+        },
+        {
+            "roomName": "Chambre Double Vue Jardin",
+            "board": "AI",
+            "nrf": false,
+            "rateKey": 4,
+            "capacity": {
+                "adults": 2
+            }
+        },
+        {
+            "roomName": "Chambre Simple",
+            "board": "BR",
+            "nrf": false,
+            "rateKey": 4,
+            "capacity": {
+                "adults": 1
+            }
+        },
+        {
+            "roomName": "Chambre Simple",
+            "board": "BR",
+            "nrf": true,
+            "rateKey": 4,
+            "capacity": {
+                "adults": 1
+            }
+        },
+        {
+            "roomName": "Chambre Triple",
+            "board": "BR",
+            "nrf": false,
+            "rateKey": 4,
+            "capacity": {
+                "adults": 3
+            }
+        },
+        {
+            "roomName": "Chambre Triple",
+            "board": "BR",
+            "nrf": true,
+            "rateKey": 4,
+            "capacity": {
+                "adults": 3
+            }
+        },
+        {
+            "roomName": "Chambre Double Vue X",
+            "board": "BR",
+            "nrf": false,
+            "rateKey": 2,
+            "capacity": {
+                "adults": 2
+            }
+        }
+    ]
+}
