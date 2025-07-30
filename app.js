@@ -1,59 +1,88 @@
-// hotel-packager.js
 const fs = require('fs');
 const path = require('path');
 
 /**
- * Génère toutes les combinaisons de taille N dans un tableau (backtracking).
- * @param {Array} arr  - Le tableau d'éléments
- * @param {number} N  - Taille des combinaisons à générer
- * @returns {Array[]} - Liste de combinaisons (tableaux de N éléments)
+ * Trie les chambres pour ordre stable (optionnel, pour signature canonique).
  */
-function combinations(arr, N) {
+function sortRooms(rooms) {
+    return rooms.sort((a, b) => {
+        if (a.board !== b.board) return a.board.localeCompare(b.board);
+        if (a.nrf !== b.nrf) return a.nrf ? -1 : 1;
+        if (a.capacity.adults !== b.capacity.adults) return a.capacity.adults - b.capacity.adults;
+        return a.rateKey - b.rateKey;
+    });
+}
+
+/**
+ * Génère toutes les combinaisons valides (permutations + dédup) :
+ * - Exact match capacity/adults
+ * - Même board et même nrf sur le package
+ * - Déduplication quel que soit l'ordre
+ * @param {Array} rooms
+ * @param {Array} pax
+ * @returns {Array[]} Liste de packages valides
+ */
+function generatePackages(rooms, pax) {
     const result = [];
-    function backtrack(start, combo) {
+    const seen = new Set();
+    const N = pax.length;
+    const used = Array(rooms.length).fill(false);
+
+    function signature(combo) {
+        // Canonical signature pour dédup: trier par rateKey + board + nrf + capacity
+        return combo
+            .map(r => `${r.rateKey}|${r.board}|${r.nrf}|${r.capacity.adults}`)
+            .sort()
+            .join(',');
+    }
+
+    function backtrack(combo) {
         if (combo.length === N) {
-            result.push(combo.slice());
+            const sig = signature(combo);
+            if (!seen.has(sig)) {
+                seen.add(sig);
+                result.push(combo.slice());
+            }
             return;
         }
-        for (let i = start; i < arr.length; i++) {
-            combo.push(arr[i]);
-            backtrack(i + 1, combo);
+
+        const idx = combo.length;
+        for (let i = 0; i < rooms.length; i++) {
+            if (used[i]) continue;
+            const room = rooms[i];
+            // 1) capacity exact
+            if (room.capacity.adults !== pax[idx].adults) continue;
+            // 2) board & nrf
+            if (combo.length > 0) {
+                const ref = combo[0];
+                if (room.board !== ref.board || room.nrf !== ref.nrf) continue;
+            }
+            // 3) choisir
+            used[i] = true;
+            combo.push(room);
+            backtrack(combo);
             combo.pop();
+            used[i] = false;
         }
     }
-    backtrack(0, []);
+
+    backtrack([]);
     return result;
 }
 
 /**
- * Lit input.json, construit les packages, et les affiche au format JSON.
+ * Entrée principale: lecture, tri (optionnel), génération et affichage.
  */
 function main() {
     const inputPath = path.resolve(__dirname, 'input.json');
     const { pax, rooms } = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
-    const numRoomsNeeded = pax.length;
+    console.log(`📖 Lecture de ${pax.length} pax et ${rooms.length} rooms`);
 
-    // 1) Grouper par clé composite board|nrf
-    const byGroup = rooms.reduce((acc, room) => {
-        const key = `${room.board}|${room.nrf}`;
-        if (!acc[key]) acc[key] = [];
-        acc[key].push(room);
-        return acc;
-    }, {});
+    const sortedRooms = sortRooms(rooms);
+    console.log('🔀 Rooms triées');
 
-    // 2) Pour chaque groupe, générer & filtrer
-    const packages = [];
-    for (const roomList of Object.values(byGroup)) {
-        const allCombos = combinations(roomList, numRoomsNeeded);
-        allCombos.forEach(combo => {
-            const ok = combo.every((room, idx) =>
-                room.capacity.adults >= pax[idx].adults
-            );
-            if (ok) packages.push(combo);
-        });
-    }
-
-    // 3) Afficher le résultat
+    const packages = generatePackages(sortedRooms, pax);
+    console.log(`🎉 Total packages générés: ${packages.length}`);
     console.log(JSON.stringify({ packages }, null, 2));
 }
 
