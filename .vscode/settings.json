@@ -1,0 +1,19 @@
+{
+    "javascript.preferences.includePackageJsonAutoImports": "on",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/coverage": true
+    },
+    "jest.autoRun": "off",
+    "jest.showCoverageOnLoad": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/coverage": true
+    }
+}
